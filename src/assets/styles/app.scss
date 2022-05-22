@@ -1,0 +1,27 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+header {
+    @apply w-full;
+    border: 1px solid blue;
+    font-family: 'MyFont';
+    background-image: url('../images/paysage1.jpg');
+    ul{
+      border: 1px solid red;
+      width: 50%;
+    }
+    a{
+      text-decoration: none;
+      font-family: 'MyFont';
+      font-style: normal;
+    }
+}
+
